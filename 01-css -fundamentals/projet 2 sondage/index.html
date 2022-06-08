@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href=".//index.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sondage</title>
+  </head>
+  <body>
+  <div class="image"></div>
+    <h1 id="title">SONDAGE AFCI</h1>
+    <p id="description">
+      merci de prendre le temps pour nous aider à améliorer la formation DWWM
+    </p>
+    <section class="main">
+      <form id="survey-form">
+        <label for="nom" id="name-label"> nom </label><br />
+        <input type="text" placeholder="Entrez votre nom" class="name" /><br />
+
+        <label for="email" id="email-label"> Email </label><br />
+        <input
+          type="text"
+          placeholder="Entrez votre email"
+          class="name"
+        /><br />
+        <label for="age" id="number-label"> Age (facultatif) </label><br />
+        <input
+          type="number"
+          placeholder="age"
+          class="name"
+          min="0"
+          max="100"
+        /><br />
+
+        <label for="niveau"
+          >Quel est votre niveau de connaissance en web ?</label
+        ><br />
+
+        <select name="niveau" id="dropdown" class="name">
+          <option value="debutant" id="name">debutant</option>
+          <option value="intermédiaire" id="name">intermédiaire</option>
+          <option value="expert" id="name">expert</option>
+        </select>
+        <legend>Recommendriez-vous la formation DWWM:</legend>
+
+        <input type="radio" id="oui" Class="demo"name="oui" value="oui" />
+        <label for="oui">oui</label><br />
+
+        <input type="radio" id="oui" name="oui" Class="demo" value="oui" />
+        <label for="peut-etre">Peut-être</label><br />
+
+        <input type="radio" id="oui" name="oui"Class="demo" value="oui" />
+        <label for="peut-etre">Non</label><br /
+
+        <label for="recommandation"
+          >Que souhaiteriez-vous voir amélioré ?(plusieurs choix
+          possibles)</label
+        >
+        <div>
+          <input type="checkbox" name="projets front-end" value="pf" />
+          <label for="front-end">projets front-end</label> <br />
+
+          <input type="checkbox" name="projets back-end" value="pj" />
+          <label for="back-end">Projets back-end</label><br />
+
+          <input type="checkbox" name="Cours" value="n" />
+          <label for="Cours">Cours</label><br />
+
+          <input type="checkbox" name="Exercices" value="ex" />
+          <label for="Exercices">Exercices</label><br />
+
+          <input type="checkbox" name="Supports" value="sup" />
+          <label for="Supports">Supports</label><br />
+        </div>
+        <label for="story">commentaires ou suggestion</label><br />
+
+        <textarea>Entrez votre commentaire</textarea><br />
+
+        <input type="submit" id="btn" value=" envoyer &#10162 " />
+      </form>
+    </section>
+  </body>
+</html>

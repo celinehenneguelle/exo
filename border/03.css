@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+#navbar {
+  height: 100px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(59, 12, 58),
+    rgb(129, 199, 207)
+  );
+}
+.logo {
+  font-size: 50px;
+  color: rgb(17, 8, 31);
+}
+.hero {
+  text-align: center;
+  color: white;
+
+  background: linear-gradient(
+    to bottom left,
+    rgb(129, 199, 207),
+    rgb(67, 21, 69)
+  );
+  min-height: calc(100vh - 100px);
+}
+.hero-btn {
+  background-color: rgb(8, 2, 33);
+  color: white;
+  border-color: rgb(10, 4, 29);
+  border-radius: 5px;
+}
+span {
+  color: rgb(10, 4, 29);
+  font-size: 30px;
+}

@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#514242bd, #626387ac);
+
+  background-image: url(.//JAP.jpg);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  padding-bottom: 10%;
+
+  image-rendering: auto;
+}
+.main {
+  display: block;
+  color: rgb(238, 239, 244);
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 600px;
+  text-transform: capitalize;
+  background: linear-gradient(#e66464ba, #626387ac);
+  border-radius: 5px;
+  padding: 35px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.name,
+textarea,
+#btn {
+  width: 530px;
+  max-width: 530px;
+  height: 35px;
+  background-color: rgb(232, 227, 232);
+  border-radius: 5px;
+  color: rgb(171, 57, 171);
+  padding-left: 5%;
+  margin-bottom: 15px;
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+p {
+  text-align: center;
+  color: white;
+  margin-bottom: 45px;
+}
+textarea {
+  height: 100px;
+}
+#btn {
+  display: block;
+  background-color: #3d3892;
+  color: white;
+  font-size: 15px;
+  border: none;
+
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-left: 0px;
+}

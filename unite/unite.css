@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+}
+
+.exemple {
+  background-color: aqua;
+  min-width: 20rem;
+  min-height: 25rem;
+}

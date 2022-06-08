@@ -1,0 +1,20 @@
+.box1,
+.box2,
+.box3 {
+  width: 150px;
+  height: 150px;
+  color: white;
+}
+
+.box1 {
+  background-color: rgb(244, 14, 106);
+  padding: 20px;
+  box-sizing: border-box;
+}
+.box2 {
+  background-color: rgb(247, 20, 54);
+}
+.box3 {
+  background-color: rgb(245, 19, 19);
+  padding: 20px;
+}

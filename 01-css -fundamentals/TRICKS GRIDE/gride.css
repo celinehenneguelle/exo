@@ -1,0 +1,52 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 20% 70% 20%;
+    grid: template rows 300px 240PX 300PX 300PX 300PX
+}
+
+.one {
+    text-align: center;
+    background-color: aqua;
+    color: blanchedalmond;
+    grid-column: 1/-1;
+    grid-row: 1;
+
+}
+
+.two {
+    text-align: center;
+    color: white;
+    background-color: blue;
+    grid-column: 1;
+    grid-row: 2;
+
+}
+
+.three {
+    text-align: center;
+    background-color: purple;
+    color: blanchedalmond;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.four {
+    text-align: center;
+    background-color: orangered;
+    color: blanchedalmond;
+    grid-column: 3/4;
+    grid-row: 2
+}
+
+.five {
+    text-align: center;
+    background-color: red;
+    color: blanchedalmond;
+    grid-column: 1/-1;
+    grid-row: 3;
+}
+
+.ima2 {
+    grid-column: 2;
+    grid-row: 2;
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+.big {
+  background: url(back1.png);
+  background-position: center;
+}
+.small {
+  background: url(back4.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.folder {
+  background: url(back3.png);
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  background: linear-gradient(to top, rgba(0, 0, 0.2), rgba(143, 23, 23, 0.5));
+}

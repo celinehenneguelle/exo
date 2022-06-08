@@ -1,0 +1,66 @@
+h2 {
+  text-align: left;
+  margin: 10px;
+}
+body {
+  background-color: white;
+}
+.bord {
+  background-color: white;
+  width: 500 px;
+}
+
+.head {
+  background: linear-gradient(
+    to bottom right,
+    rgb(59, 12, 58),
+    rgb(129, 199, 207)
+  );
+
+  color: white;
+
+  font-size: larger;
+}
+h1 {
+  font-size: xx-large;
+}
+
+h2 {
+  color: rgb(61, 12, 64);
+}
+
+h3 {
+  color: rgb(18, 18, 110);
+  text-indent: 20px;
+}
+
+h4 {
+  text-indent: 30px;
+}
+h5 {
+  text-indent: 30px;
+}
+#coord {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  display: flex;
+}
+
+#gg {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#conteneur {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+
+article {
+  margin: 10px;
+}

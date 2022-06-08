@@ -1,0 +1,367 @@
+.header {
+  background-image: url(CIEL\ 2.png);
+  background-repeat: no-repeat;
+  width: 100%;
+
+  background-size: cover;
+  text-align: center;
+
+
+}
+
+.loupe {
+  background-color: #5cc123;
+  border: #5cc123;
+  border-radius: 5px;
+}
+
+#logo {
+  width: 100px;
+  height: 200px;
+
+  border: solid yellow;
+  border-radius: 5px;
+  margin: 5px 5px 5px 5px;
+}
+
+.rec {
+  text-align: center;
+}
+
+.barre {
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
+
+.barre a #derniers #top {
+  display: inline;
+}
+
+#button {
+  max-width: 152.883px;
+  word-break: normal;
+  height: 52px;
+  text-align: center;
+  padding: 0.5rem;
+  margin: right 1rem;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.conn {
+  padding: 5px;
+}
+
+.cat1 {
+  padding: 5px;
+}
+
+.connexion {
+  text-align: right;
+  margin-bottom: 5px;
+  margin-top: 15px;
+
+  border-radius: 10px;
+  background-color: #f8f8f8;
+}
+
+#email {
+  border: solid #cbd3dc 1px;
+  border-radius: 5px;
+  height: 25px;
+  color: #cbd3dc;
+  width: 80%;
+  padding-bottom: 15px;
+}
+
+#mdp {
+  border: solid #cbd3dc 1px;
+  border-radius: 5px;
+  height: 40px;
+  color: #cbd3dc;
+  width: 70%;
+  padding-left: 22px;
+}
+
+#souvenir {
+  font-size: 15px;
+  text-transform: lowercase;
+  padding-left: 9px;
+  letter-spacing: 1.2PX;
+
+}
+
+#oublier {
+  text-transform: lowercase;
+  font-size: 12px;
+  padding-left: 20px;
+  letter-spacing: 1.2px;
+}
+
+.derniersart {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-image: url(.//pile-livres-vrac\ 1.jpg);
+  text-align: right;
+  max-height: fit-content;
+
+  max-width: fit-content;
+}
+
+.mag {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-image: url("MAGAZINE\ VRAC\ 1.png.jpg");
+  max-width: fit-content;
+  text-align: right;
+  max-height: fit-content;
+}
+
+.journaux {
+  text-align: right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-image: url("vrac\ journaux\ 1.jpg");
+  max-width: fit-content;
+}
+
+.connexion .journaux.mag .derniersart {
+  display: flex;
+}
+
+.bd {
+  text-align: right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-image: url("bd\ vrac\ 1.jpg.png");
+}
+
+.livres {
+  text-align: right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  border-radius: 10px;
+  background-image: url("piLe-livres-vrac\ 1.jpg");
+}
+
+.auto {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-image: url("logiciels-gratuits 1.jpg");
+}
+
+.semaine {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  border-radius: 10px;
+  background-color: white;
+  color: rgb(160, 15, 15);
+}
+
+.mois {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  border-radius: 10px;
+  background-color: white;
+}
+
+.cat {
+  text-align: left;
+  margin-bottom: 15px;
+
+  border-radius: 10px;
+  background-color: white;
+}
+
+.partenaires {
+  columns: 3;
+  background-color: #2b3946;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.partenaires a {
+  color: white;
+}
+
+body {
+  background-color: #2c3e50;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.disclaimer a {
+  background-color: #202e3c;
+  color: white;
+}
+
+h4 {
+  height: 30px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+  padding-top: 15px;
+  background-color: rgb(36, 36, 36);
+}
+
+h1 {
+  text-align: center;
+  height: 30px;
+  background-color: RGB(36, 36, 36);
+  color: white;
+  margin-top: 0%;
+  border-radius: 5px 5px 0px 0px;
+  padding-top: 15px;
+}
+
+body {
+  font-family: serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.sider1 {
+  flex-basis: 10%;
+}
+
+.sider2 {
+  flex-basis: 10%;
+}
+
+.contenu {
+  flex-basis: 60%;
+}
+
+.mois,
+a {
+  text-decoration: none;
+  color: rgb(157, 42, 42);
+  text-transform: uppercase;
+  font-size: small;
+}
+
+.tm {
+  padding: 5px;
+}
+
+.ts {
+  padding: 5px;
+}
+
+.rech {
+  width: 250px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: solid white;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+hr {
+  color: rgb(176, 177, 177);
+  opacity: 40%;
+}
+
+h2 {
+  writing-mode: vertical-rl;
+  color: black;
+  letter-spacing: 2px;
+  line-height: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 100;
+  float: left;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 25px;
+  height: 400px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#btnvert {
+  width: 155.9px;
+  height: 40px;
+  padding-right: 10px;
+}
+
+
+
+
+
+@media only screen and (max-width:600PX) {
+  .barre {
+    display: none;
+  }
+
+  .conn {
+    display: none;
+
+  }
+
+  .cat1 {
+    display: none;
+  }
+
+  .semaine {
+    display: none;
+  }
+
+  .mois {
+
+    display: none;
+  }
+
+  .contenu {
+    width: 100%;
+  }
+
+  body {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  h2 {
+    font-size: 17px;
+    text-transform: capitalize;
+    writing-mode: horizontal-tb;
+    display: block;
+    width: 98%;
+    height: 20px;
+    background-color: #242424;
+    padding: 5px;
+    margin-top: 0px;
+    padding-top: 20px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  #logo {
+    width: 45%;
+
+
+  }
+
+  #derniersarticles {
+    display: none
+  }
+}

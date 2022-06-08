@@ -1,0 +1,20 @@
+body {
+  background-color: yellow;
+}
+
+.banner {
+  background-color: blue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 570px) {
+  body {
+    background-color: red;
+  }
+}

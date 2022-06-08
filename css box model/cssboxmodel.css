@@ -1,0 +1,33 @@
+* {
+  border: solid black;
+}
+body {
+  color: white;
+}
+
+h1 {
+  background-color: blue;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 50px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  border: 1rem dashed rgb(223, 33, 64);
+}
+p {
+  background-color: blueviolet;
+  padding: 5px 20px 50px 40px;
+  margin: 3rem;
+  border: 2rem groove black;
+  border-radius: 25px;
+}
+#one {
+  background-color: aquamarine;
+  outline: 0.2rem solid black;
+  margin: 15px;
+}
+#two {
+  background-color: aquamarine;
+  outline: 0.2rem solid black;
+}

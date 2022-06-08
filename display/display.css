@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+ul a {
+  color: orangered;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background-color: black;
+  padding: 5px;
+  margin: 10px;
+  display: block;
+}

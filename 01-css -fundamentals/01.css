@@ -1,0 +1,13 @@
+.icon {
+  color: red;
+  font-size: 40px;
+}
+
+#first,
+#second {
+  color: blue;
+}
+.container,
+p {
+  color: rgb(80, 77, 77);
+}

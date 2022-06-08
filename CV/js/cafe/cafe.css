@@ -1,0 +1,9 @@
+header {
+  background-image: url("maison-du-cafe-grain-cuilliere-bois-image-3\ .png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+#tasse {
+  border-radius: 50%;
+}

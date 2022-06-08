@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 100vh;
+
+
+}
+
+h1 {
+
+
+
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+
+    font-size: 64px;
+    font-family: 'Fira Mono', monospace;
+    letter-spacing: 5px;
+    font-weight: 500;
+
+
+
+}
+
+P {
+
+
+
+    font-size: 16PX;
+    letter-spacing: 3.2pX;
+    line-height: 32PX;
+    font-family: 'Fira Code', monospace;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+
+
+
+
+
+}
+
+#bth {
+
+    color: rgb(243, 80, 35);
+    text-transform: capitalize;
+    width: 150px;
+    height: 40px;
+    font-size: 14PX;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    background-color: white;
+    border: SOLID 3PX rgb(243, 80, 35);
+
+}
+
+.bouton {
+
+    height: 30vh;
+    align-items: center;
+    padding: 10%;
+
+}
+
+.text {
+
+
+
+    background-color: rgb(243, 80, 35);
+}
+
+@media(min-width:992px) {
+
+    .text {
+
+        background-image: linear-gradient(rgba(204, 46, 18, 0.749), rgba(47, 39, 32, 0.612)),
+            url(.//plage.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-items: center;
+        align-items: center;
+
+        background-attachment: scroll, fixed;
+
+    }
+
+    h1 {
+        padding-top: 10%;
+
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 3%;
+
+    }
+
+    .bouton {
+        padding-top: 50px;
+    }
+
+
+}
